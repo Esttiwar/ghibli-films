@@ -1,0 +1,6 @@
+.image-card {
+    border-radius: 47px;
+    background: #e0e0e0;
+    box-shadow:  7px 7px 14px #afafaf,
+                 -7px -7px 14px #ffffff;
+}

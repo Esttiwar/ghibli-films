@@ -9,7 +9,7 @@ const Auth = () => {
     <Routes>
       <Route path='/' element={<Layout />}>
         <Route index  element={<Films/>} />
-        <Route path='film'  element={<Film/>} />
+        <Route path=':idFilm'  element={<Film/>} />
       </Route>
     </Routes>
   );

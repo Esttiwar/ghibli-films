@@ -1,19 +1,26 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import {Outlet} from 'react-router-dom'
-
+import AuthContext from '../Context/AuthContext';
 
 const Layout = () => {
-  return (
+    const {handleAuth} = useContext(AuthContext)
+
+    const handleLogin = () => {
+    handleAuth(false)
+    }
+
+
+    return (
         <main>
-            <nav className='display flex justify-between'>
+            <nav className='display flex justify-between px-10 pt-6'>
                 <h1>Ghibli Films</h1>
-                <button>Logout</button>
+                <button onClick={handleLogin}>Logout</button>
             </nav>
             <section>
                 <Outlet />
             </section>
         </main>
-  );
+    );
 };
 
 export default Layout;
