@@ -27,7 +27,7 @@ const Films = () => {
   }, [])
 
   return (
-    <div className='display flex w-screen flex-wrap justify-around mt-32'>
+    <div className='display flex w-screen flex-wrap justify-around bg-container'>
       {dataFilms.map(film => (
         <Link className='card display flex w-1/4 mx-2 my-6' key={film.id} to={film.id}>
           <div className='display flex flex-col items-center'> 

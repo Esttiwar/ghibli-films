@@ -12,7 +12,7 @@ const Layout = () => {
 
     return (
         <main>
-            <nav className='display flex justify-between px-10 pt-6'>
+            <nav className='display flex justify-between px-10 py-6'>
                 <h1>Ghibli Films</h1>
                 <button onClick={handleLogin}>Logout</button>
             </nav>

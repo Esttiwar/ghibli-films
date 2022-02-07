@@ -29,8 +29,8 @@ const Film = () => {
   }, [])
 
   return (
-    <div className=''>
-      <div className='display flex flex-col items-center w-screen mb-10'>
+    <div className='bg-container'>
+      <div className='display flex flex-col items-center w-screen'>
         <h1 className='my-10 font-black text-2xl'>{dataFilm.title}</h1>
         <img className='mb-10' src={dataFilm.image} alt="dataFilm img" />
         <div className='text-center px-10'>
