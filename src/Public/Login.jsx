@@ -11,7 +11,7 @@ const Login = () => {
   }
 
   return (
-    <div className='display flex justify-center items-center h-screen border-2 border-red-500'>
+    <div className='display flex justify-center items-center h-screen'>
         <div className='display flex flex-col items-center'>
             <div>
                 <img src={gif} alt="login" />
