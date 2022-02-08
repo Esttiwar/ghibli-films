@@ -30,7 +30,7 @@ const Film = () => {
 
   return (
     <div className='display flex justify-center film bg-container px-20 h-screen w-full'>
-        <div className='display w-1/2 flex flex-col items-center border-solid border-2 border-red-600'>
+        <div className='display w-1/2 flex flex-col items-center'>
           <h1 className='my-10 font-black text-2xl'>{dataFilm.title}</h1>
           <img className='mb-10 h-3/4' src={dataFilm.image} alt="dataFilm img" />
         </div>

@@ -1,0 +1,16 @@
+nav {
+    background-image: url("../Gif/ghibli2013_banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-size: cover;
+}
+
+.ghibli-title {
+    font-family: 'Shizuru', cursive;
+    -webkit-text-stroke: 2px black;
+    color: rgb(255, 255, 255);
+}
+
+.button-font{
+    font-family: 'Shizuru', cursive;
+}
