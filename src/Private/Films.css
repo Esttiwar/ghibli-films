@@ -9,8 +9,88 @@
                  -7px -7px 14px #ffffff;
 }
 
-
 h1 {
     font-family: 'Shizuru', cursive
 }
 
+@media screen and (max-width: 1024px) {
+    .card > div > h1 {
+        font-size: 19px;
+        height: 25%;
+        /* border: 2px black solid; */
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .card {
+        height: 390px;
+        margin: 30px 20px;
+        /* border: 2px red solid; */
+    }
+
+    .card > div > h1 {
+        font-size: 20px;
+        height: 25%;
+        /* border: 2px black solid; */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bg-container {
+        justify-content: space-evenly;
+    }
+
+    .card {
+        height: 390px;
+        margin: 30px 15px;
+        width: 30%;
+    }
+
+    .card > div > h1 {
+        font-size: 19px;
+        height: 25%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .card {
+        height: 390px;
+        margin: 35px 0px;
+        width: 40%;
+    }
+
+    .card > div > h1 {
+        font-size: 18px;
+        height: 25%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        /* height: 390px; */
+        width: 80%;
+        margin: 130px 0;
+        /* border: 2px red solid; */
+    }
+
+    .card > div > h1 {
+        font-size: 20px;
+        height: 25%;
+        /* border: 2px black solid; */
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .card {
+        /* height: 390px; */
+        width: 80%;
+        margin: 70px 0;
+        /* border: 2px red solid; */
+    }
+
+    .card > div > h1 {
+        font-size: 20px;
+        height: 25%;
+        /* border: 2px black solid; */
+    }
+}

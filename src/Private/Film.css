@@ -7,10 +7,9 @@ div > p {
 }
 
 
-@media screen and (max-width: 820px){
+@media screen and (max-width: 1024px){
     .film {
         flex-direction: column;
-        border: 2px solid red;
         height: 100%;
         align-items: center;
         padding-left: 0;
@@ -25,13 +24,18 @@ div > p {
         text-align: center;
     }
 
-    .text-data-dataFilm {
-        text-align: center;
-    }
-
     .text-data > p {
         text-align: center;
-        display: flex;
         flex-direction: column;
+    }
+
+    div > h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .container-title-img {
+        width: 80%;
     }
 }
