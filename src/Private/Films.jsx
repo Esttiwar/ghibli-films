@@ -13,7 +13,6 @@ const Films = () => {
     axios.get(url)
       .then(res => {
         setDataFilms(res.data)
-        console.log(dataFilms);
       })
       .catch(error => {
         console.log(error);

@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import gif from '../Gif/giphy.gif'
+import gif from '../Media/giphy.gif'
 import AuthContext from '../Context/AuthContext';
 
 const Login = () => {
