@@ -40,16 +40,18 @@ const Film = () => {
         <h1 className='my-10 font-black text-2xl'>{dataFilm.title}</h1>
         <img className='mb-10 h-3/4' src={dataFilm.image} alt="dataFilm img" />
       </div>
-      <div className='display flex flex-col justify-center text-start px-10 w-1/2'>
-        <p><p className='font-black'>Description: </p>{dataFilm.description}</p>
+      <div className='display flex flex-col justify-center text-start px-10 w-1/2 text'>
+        <p className='description'><p className='font-black'>Description: </p>{dataFilm.description}</p>
         <br />
-        <p className='display flex'><p className='font-black'>Director: &nbsp; </p>{dataFilm.director}</p>
-        <p className='display flex'><p className='font-black'>Producer: &nbsp;</p>{dataFilm.producer}</p>
-        <p className='display flex'><p className='font-black'>Original title: &nbsp;</p>{dataFilm.original_title}</p>
-        <p className='display flex'><p className='font-black'>Original title romanised: &nbsp;</p>{dataFilm.original_title_romanised}</p>
-        <p className='display flex'><p className='font-black'>Rotten Tomatoes score: &nbsp;</p>{dataFilm.rt_score}</p>
-        <p className='display flex'><p className='font-black'>Release date: &nbsp;</p>{dataFilm.release_date}</p>
-        <p className='display flex'><p className='font-black'>Running time: &nbsp;</p>{dataFilm.running_time} minutes</p>
+        <div className='border-black border-2 text-data'>
+          <p className='display flex font-black'>Director: &nbsp;{dataFilm.director}</p>
+          <p className='display flex font-black'>Producer: &nbsp;{dataFilm.producer}</p>
+          <p className='display flex font-black'>Original title: &nbsp;{dataFilm.original_title}</p>
+          <p className='display flex font-black'>Original title romanised: &nbsp;{dataFilm.original_title_romanised}</p>
+          <p className='display flex font-black'>Rotten Tomatoes score: &nbsp;{dataFilm.rt_score}</p>
+          <p className='display flex font-black'><p className='font-black'>Release date: &nbsp;</p>{dataFilm.release_date}</p>
+          <p className='display flex font-black text-data-dataFilm'><p className='font-black'>Running time: &nbsp;</p>{dataFilm.running_time} minutes</p>
+        </div>
       </div>
     </div>
   );
