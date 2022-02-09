@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ghibli-films/static/css/main.b4e0edc1.css",
+    "main.js": "/ghibli-films/static/js/main.eed77e46.js",
+    "static/js/787.08d92c28.chunk.js": "/ghibli-films/static/js/787.08d92c28.chunk.js",
+    "static/media/giphy.gif": "/ghibli-films/static/media/giphy.cfeb724e11e04e593a11.gif",
+    "static/media/ghibli2013_banner.jpg": "/ghibli-films/static/media/ghibli2013_banner.bcac8970677c77453b9d.jpg",
+    "index.html": "/ghibli-films/index.html",
+    "main.b4e0edc1.css.map": "/ghibli-films/static/css/main.b4e0edc1.css.map",
+    "main.eed77e46.js.map": "/ghibli-films/static/js/main.eed77e46.js.map",
+    "787.08d92c28.chunk.js.map": "/ghibli-films/static/js/787.08d92c28.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4e0edc1.css",
+    "static/js/main.eed77e46.js"
+  ]
+}
