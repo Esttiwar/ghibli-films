@@ -5,8 +5,8 @@ import Login from './Login';
 const Unauth = () => {
   return (
     <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path='*' element={<Navigate to="/" />} />
+        <Route path="/login" element={<Login />} />
+        <Route path='*' element={<Navigate to="/login" />} />
     </Routes>
   );
 };
