@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import {Link} from 'react-router-dom'
 import gif from '../Media/giphy.gif'
 import AuthContext from '../Context/AuthContext';
 
@@ -17,7 +18,9 @@ const Login = () => {
                 <img src={gif} alt="login" />
             </div>
         
-            <button className='border-2 border-black border-solid rounded-2xl px-5 py-1 bg-blue-300 hover:bg-blue-500' onClick={handleLogin} type="submit">Login</button>
+            <Link to="/films">
+              <button className='border-2 border-black border-solid rounded-2xl px-5 py-1 bg-blue-300 hover:bg-blue-500' onClick={handleLogin}>Login</button>
+            </Link>
         </div>
     </div>
   );

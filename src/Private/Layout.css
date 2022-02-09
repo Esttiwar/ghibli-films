@@ -6,13 +6,8 @@ nav {
 }
 
 .ghibli-title {
-    font-family: 'Shizuru', cursive;
     -webkit-text-stroke: 2px black;
     color: rgb(255, 255, 255);
-}
-
-.button-font {
-    font-family: 'Shizuru', cursive;
 }
 
 @media screen and (max-width: 480px) {

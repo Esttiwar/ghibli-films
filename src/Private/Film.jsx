@@ -31,7 +31,7 @@ const Film = () => {
   return (
     <div className='display flex justify-center film bg-container pl-5 pr-20 h-screen w-full pb-10'>
       <div>
-        <Link to="/">
+        <Link to="/films">
           <button className='border-2 mt-10 border-black border-solid rounded-2xl my-3 px-5 bg-blue-300 hover:bg-blue-500'>Back</button>
         </Link>
       </div>

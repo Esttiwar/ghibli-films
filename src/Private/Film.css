@@ -2,11 +2,6 @@ img {
     border-radius: 47px;
 }
 
-div > p {
-    font-family: 'Shizuru', cursive
-}
-
-
 @media screen and (max-width: 1024px){
     .film {
         flex-direction: column;
