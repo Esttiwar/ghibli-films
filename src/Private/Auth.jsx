@@ -8,7 +8,7 @@ const Auth = () => {
   return (
     <Routes>
       <Route path='/' element={<Layout />}>
-        <Route path='films'  element={<Films/>} />
+        <Route index path='films'  element={<Films/>} />
         <Route path='films/:idFilm'  element={<Film/>} />
       </Route>
     </Routes>
