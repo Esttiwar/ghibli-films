@@ -8,7 +8,7 @@ const Film = () => {
 
   const {idFilm} = useParams()
 
-  const url = "https://ghibliapi.herokuapp.com/films"
+  const url = "https://ghibliapi.vercel.app/films"
 
   const [dataFilm, setDataFilm] = useState([])
 
